@@ -219,7 +219,7 @@ def plot_wp_wrf_ts_taydiag(obs, eval_date, lev_i=0):
 
         fig = plt.figure(figsize=(8, 8))
         td = TaylorDiagram(obs_slice[var[0]].std().values, label='lidar', fig=fig,
-                           srange=(0, 1.6), extend=False,
+                           srange=(0, 2.5), extend=False,
                            corrticks=[0, .1, .2, .3, .4, .5, .6, .7, .8, .9, .95, .99],
                            #minorcorrticks=np.arange(0.05,0.9,0.1),
                            #stdevticks=np.arange(0.2,2,0.2),
@@ -229,7 +229,7 @@ def plot_wp_wrf_ts_taydiag(obs, eval_date, lev_i=0):
             corr_xy = np.corrcoef(np.squeeze(obs_slice[var[0]]), np.squeeze(series))[0, 1]
             R2 = corr_xy**2
             stdev = series.std().values
-            # print(name, stdev, R2)
+            print(name, stdev, R2)
             td.add_sample(stdev, R2, marker='o', ms=10, ls='', alpha=0.7, label=name)
 
         td.add_grid()
@@ -247,7 +247,11 @@ def plot_wp_wrf_ts_taydiag(obs, eval_date, lev_i=0):
         plt.savefig('plots/taydiag_'+eval_date+'_'+var[0]+'_'+hgt_str+'m.pdf')
 
         plt.show()
+        plt.close('all')
 
-for col in data_dir_df.columns[1:]: 
-    plot_wp_wrf_ts_taydiag(dlprofwind, col)
-    plot_wp_wrf_ts_taydiag(dlprofwstats, col)
+#for col in data_dir_df.columns[1:]: 
+#    plot_wp_wrf_ts_taydiag(dlprofwind, col)
+#    plot_wp_wrf_ts_taydiag(dlprofwstats, col)
+
+plot_wp_wrf_ts_taydiag(dlprofwind, '2018-07-09')
+plot_wp_wrf_ts_taydiag(dlprofwstats, '2018-07-09')
