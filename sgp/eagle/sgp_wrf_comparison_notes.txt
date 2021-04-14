@@ -1,0 +1,69 @@
+Notes on obs vs wrf plots at SGP
+JLCY
+
+Generally for WD and w, between obs & wrf, the correlations are low, and the 
+RMSEs are high. 
+
+WD causes problems on metrics and graphics because of the 360-deg and 0-deg split.
+
+Some taylor diagrams do not show all the data points because the standard 
+deviations of the model variables are too big. 
+
+>>> 2018-05-29 <<<
+
+WS tay diag: 
+erad01 > erad02 > gfs
+
+models miss WD change badly between 6Z and 10Z 
+
+gfs misses WS ramps between 6Z and 12Z badly
+
+>>> 2018-05-30 <<<
+
+WS tay diag: 
+gfs > erad01 > erad02
+
+gfs matches WD and WS ts the best, esp after 6Z
+
+>>> 2018-07-07 <<<
+
+WS tay diag: 
+erad01 ~ gfs > erad02
+
+gfs matches WS ts the best
+
+>>> 2018-07-09 <<<
+
+WS tay diag: 
+none are good... 
+
+all models overstate WS @ night
+
+erad02 could depict w profile late afternoon
+
+>>> 2018-07-10 <<<
+
+WS tay diag: 
+erad01 > erad02 > gfs
+
+erad02 matches WS ts well for parts of the day
+
+gfs matches WD the best
+
+>>> 2018-08-05 <<<
+
+WS tay diag: 
+erad01 > gfs > erad02
+
+all models match night time WS & WD well; only erad02 fit so-so w/ daytime WS
+
+all models not do so well for daytime WD
+
+>>> 2018-09-01 <<<
+
+WS tay diag: 
+gfs> erad01 ~ d02
+
+gfs matches WD the best 
+
+all models overstate WS, gfs overall is better
