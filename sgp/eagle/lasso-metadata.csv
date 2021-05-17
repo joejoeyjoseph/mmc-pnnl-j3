@@ -1,0 +1,9 @@
+simulation-id,large-scale-forcing,forcing-scale-km
+1,None,0
+2,VARANAL,300
+3,ECMWF,16
+4,ECMWF,413
+5,ECMWF,114
+6,MSDA,75
+7,MSDA,150
+8,MSDA,300
