@@ -1,9 +1,10 @@
 ﻿,2018-08-05,2018-09-01
-mynn,l1_0805m,l3_0901m
+mynn,l1_0805m,o1_0901m_30s
 mynn_ck0.1,l7_0805m-ck,NA
-edmf,l2_0805e,l4_0901e
+edmf,l2_0805e,o2_0901e_30s
 mynn_all4d-1arcs-topo,l5_0805m,NA
-mynn_d12-9s_d34-1s_lu,n1_d12-9s_d34-1s,NA
+mynn_d12-9s_d34-1s,n1_d12-9s_d34-1s,o5_0901m_9s1s
 mynn_d123-9s_d4-1s_lu,n2_d123-9s_d4-1s,NA
 mynn_all4d-9arcs_lu,n3_9s,NA
+edmf_d12-9s_d34-1s,NA,o6_0901e_9s1s
 wrf_start,8/4/18 12:00,8/31/18 12:00
