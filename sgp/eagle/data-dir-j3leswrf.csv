@@ -1,10 +1,19 @@
 ﻿,2018-08-05,2018-09-01
+
 mynn,a1_0805m_30s,o1_0901m_30s
 mynn_ck0.1,l7_0805m-ck,NA
-edmf,a2_0805e_30s,o2_0901e_30s
+mynn_ml1,a3_0805m_30s_mixlen1,NA
 mynn_all4d-1arcs-topo,l5_0805m,NA
 mynn_d12-9s_d34-1s,a5_0805m_9s1s,o5_0901m_9s1s
 mynn_d123-9s_d4-1s_lu,n2_d123-9s_d4-1s,NA
 mynn_all4d-9arcs_lu,n3_9s,NA
+mynn_d12-9s_d34-1s_ml1,a7_0805m_9s1s_mixlen1,o7_0901m_9s1s_mixlen1
+mynn_d12-9s_d34-1s_ml0,a71_0805m_9s1s_mixlen0,NA
+mynn_d12-9s_d34-1s_ck0.1,a9_0805m_9s1s_ck01,NA
+
+edmf,a2_0805e_30s,o2_0901e_30s
+edmf_ml1,a4_0805e_30s_mixlen1,NA
 edmf_d12-9s_d34-1s,a6_0805e_9s1s,o6_0901e_9s1s
+edmf_d12-9s_d34-1s_ml1,a8_0805e_9s1s_mixlen1,NA
+
 wrf_start,8/4/18 12:00,8/31/18 12:00
