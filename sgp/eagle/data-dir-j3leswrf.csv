@@ -12,8 +12,10 @@ mynn_d12-9s_d34-1s_ml0,a71_0805m_9s1s_mixlen0,NA
 mynn_d12-9s_d34-1s_ck0.1,a9_0805m_9s1s_ck01,NA
 
 edmf,a2_0805e_30s,o2_0901e_30s
-edmf_ml1,a4_0805e_30s_mixlen1,NA
+edmf_ml1,a2a_0805e_30s_mixlen1,NA
+edmf_ml0,a2b_0805e_30s_mixlen0,NA
 edmf_d12-9s_d34-1s,a6_0805e_9s1s,o6_0901e_9s1s
 edmf_d12-9s_d34-1s_ml1,a8_0805e_9s1s_mixlen1,NA
+edmf_d12-9s_d34-1s_ml0,a8b_0805e_9s1s_mixlen0,NA
 
 wrf_start,8/4/18 12:00,8/31/18 12:00
