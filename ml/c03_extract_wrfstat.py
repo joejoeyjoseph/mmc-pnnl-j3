@@ -23,12 +23,13 @@ for year in year_list:
     for nc_file in file_list:
 
         nc_file_dir = os.path.dirname(nc_file)
+        nc_folder = os.path.dirname(nc_file_dir)
 
         print(nc_file_dir) 
         print(nc_file)
 
         wip_file = out_dir+'test.nc'
-        out_file = out_dir+nc_file[-34:-27]+nc_file_dir[-1]+nc_file[-27:]
+        out_file = out_dir+nc_file[-34:-27]+nc_file_dir[-4:]+nc_file[-27:]
 
         # drop data below x meters
         height_thres = 500
