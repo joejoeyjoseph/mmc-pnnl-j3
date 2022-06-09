@@ -4,7 +4,7 @@ from netCDF4 import Dataset
 import os
 import glob
 
-year_list = [2018, 2019]
+year_list = [2015, 2016, 2017]
 
 os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
 
